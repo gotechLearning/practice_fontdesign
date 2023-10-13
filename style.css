@@ -5,12 +5,112 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
+.nav{
+    background-image: linear-gradient(90deg, pink,skyblue,yellow,pink);
+    text-align: right;
+    width: 100vw;
+    height: 10vh;
+}
+.nav ul{
+    display: inline block;
+    list-style: none;
+}
+.nav li{
+    display: inline-block;
+    text-decoration: none;
+    margin: 15px 12px;
+    padding: 2px 2px;
+    background-color: antiquewhite;
+    border: 2px solid skyblue;
+    border-radius: 7px;
+}
+.nav li a{
+    text-decoration: none;
+    font-family: 'ubuntu, sans-serif';
     font-size: 22px;
-    color: pink;
-    /* font-family: 'Cedarville Cursive', cursive;
-} */
-/* font-family: 'Ubuntu', sans-serif;*/
-font-family: 'ubuntu',sans-serif;
+    margin: 2px 3px;
+    padding: 2px 3px;
+}
+.container{
+    background-image: linear-gradient(90deg, rgb(255, 165, 0),rgb(250, 75, 250));
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+    margin: 0px;
+    pad: 0px;
+    
+}
+.box1{
+    background-image: url('first.jpg');
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    margin:120px 50px;
+    border: 2px solid grey;
+    width: 15%;
+    height: 37vh;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px rgb(53, 75, 47);
+}
 
-} 
+/* .box1,.img1:hover{
+    border-radius:12px;
+    border: 5px solid pink;
+} */
+
+.box2{
+    background-image: url('second.jpg');
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    margin:120px 50px;
+    border: 2px solid grey;
+    width: 15%;
+    height: 37vh;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px rgb(53, 75, 47);
+}
+.box3{
+    background-image: url('second.jpg');
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    margin:120px 41px;
+    border: 2px solid grey;
+    width: 15%;
+    height: 37vh;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px rgb(53, 75, 47);
+}
+.box4{
+    background-image: url('first.jpg');
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    margin:120px 57px;
+    border: 2px solid grey;
+    width: 15%;
+    height: 37vh;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px rgb(53, 75, 47);
+}
+/* .sub{
+    margin: 100px 10px;
+} */
+/* .text{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: gray;
+    margin: -90px 50px;
+    padding: -90px 0px;
+} */
+/* .text h3{
+    margin: 10px 10px;
+    padding: 2px 3px;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+} */
